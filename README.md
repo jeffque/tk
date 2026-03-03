@@ -1,13 +1,19 @@
-# Ruby/Tk
+# Jeff experiments over Ruby/Tk
 
 Tk interface module using tcltklib
 
+This is Jeff's experients over the original tk gem. Check the original gem at https://github.com/ruby/tk
+
 ## Installation
+
+> This gem uses source "https://beta.gem.coop/@jeffque"
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tk'
+source "https://beta.gem.coop/@jeffque"
+
+gem 'tk-testing'
 ```
 
 And then execute:
@@ -16,11 +22,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install tk
+    $ gem install tk-testing
 
 You may need to set options when using `gem install` so that the gem can find the Tcl/Tk headers and library:
 
-    $ gem install tk -- \
+    $ gem install tk-testing -- \
         --with-tcl-include='/path/to/tcl/header/directory' \
         --with-tk-include='/path/to/tk/header/directory' \
         --with-tcl-lib='/path/to/tcl/shared/library/directory' \
